@@ -2,22 +2,15 @@ package ie.atu;
 
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void Main(String[] args) {
         int[] anArray;
         anArray = new int[10];
 
-        anArray =  new int[]{100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
+        anArray = new int[]{100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
 
-        System.out.println("Element at index 0: " + anArray[0]);
-        System.out.println("Element at index 1: " + anArray[1]);
-        System.out.println("Element at index 2: " + anArray[2]);
-        System.out.println("Element at index 3: " + anArray[3]);
-        System.out.println("Element at index 4: " + anArray[4]);
-        System.out.println("Element at index 5: " + anArray[5]);
-        System.out.println("Element at index 6: " + anArray[6]);
-        System.out.println("Element at index 7: " + anArray[7]);
-        System.out.println("Element at index 8: " + anArray[8]);
-        System.out.println("Element at index 9: " + anArray[9]);
+
+        for (int value = 0; value < 10; value++) {
+            System.out.println("Element at index " + value + ": " + anArray[value]);
+        }
     }
 }
